@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact for Hiring</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header role="banner">
+        <nav class="light-blue darken-2">
+          <div class="nav-wrapper container">
+            <h1>
+              <a href="./index.html" class="brand-logo"><i class="material-icons left">speaker</i>Jacob Wilson</a>
+            </h1>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> 
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="./index.html"><i class="material-icons left">home</i> Home</a></li>
+              <li><a href="./portfolio.html"><i class="material-icons left">account_box</i>Portfolio</a></li>
+              <li><a href="./contact.html"><i class="material-icons left">phone</i>Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+    
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="./index.html"><i class="material-icons left">home</i> Home</a></li>
+            <li><a href="./portfolio.html"><i class="material-icons left">account_box</i>Portfolio</a></li>
+            <li><a href="./contact.html"><i class="material-icons left">phone</i>Contact</a></li>
+        </ul>
+      </header>
+
+      <main role="main" id="main">
+
+        <header class="hero light-blue darken-4 white-text valign-wrapper">
+            <div class="container row">
+              <div class="col s12 m4 center-align">
+                  <img src="./images/Jacob.jpg" alt='image of myself'>
+              </div>
+              <div class="col s12 m4 push-m3 center-align">
+                <h2>
+                  Jacob Wilson
+                </h2>
+              </div>
+            </div>
+          </header>
+
+        <div class="row container">
+            <form class="col s12 card-panel z-depth-5">
+              <div class="row">
+                  <h2 class="center light-blue-text text-darken-2" id="fix">Contact Information</h2>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 m6">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s12 m6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="phone" type="tel" class="validate">
+                  <label for="phone">Phone</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 m12 l6">
+                  <input id="date-start" type="date" class="validate">
+                  <label for="date-start">Start Date</label>
+                </div>
+                <div class="input-field col s12 m12 l6">
+                  <input id="date-end" type="date" class="validate">
+                  <label for="date-end">Start Date</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 m10 push-m1">
+                  <textarea id="job-details" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Job Details</label>
+                </div>
+              </div>
+              <div class="row">
+                <button class="btn waves-effect waves-light right col pull-m1 light-blue" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
+              </div>
+            </form>
+        </div>
+      </main>
+      <script src="./js/materialize.min.js"></script>
+      <script>
+      M.AutoInit();
+      </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+
+nav {
+    h1 {
+      margin: 0;
+    }
+  }
+  
+  .hero {
+    min-height: 40vh;
+    height: 80vh;
+    background: linear-gradient(to top, #0000, #0009), url('../images/jacob-small.jpg') center / cover no-repeat;
+    @media only screen and (min-width: 38em) {
+      background-image: linear-gradient(to top, #0000, #0009), url('../images/Jacob.jpg');
+    }
+    @media only screen and (min-width: 60em) {
+      background-image: linear-gradient(to top, #0000, #0009), url('../images/jacob-large.jpg');
+    } 
+  }
+  
+header.hero div>img{
+  min-height: 20vh;
+  max-height:40vh;
+  width: auto;
+  border-radius: 50%;
+}
+
+  .col img {
+    max-width: 100%;
+  }
+  
+  .about{
+    padding: 3rem 0;
+    margin: .5rem 0;
+    img{
+      @media only screen and (max-width: 38em){
+      width: 80%;
+      margin:0 0 2rem 10%;
+    }
+    }
+  }
+.card{
+  &.small, &.medium, &.large {
+    .card-image + .card-content {
+      max-height: 50%;
+    }
+  }
+}
+  body{
+    background-color: #01579b;
+  }
+  
+  .page-footer {
+    li {
+      margin-bottom: 1rem;
+    }
+    a {
+      display: inline-block;
+    }
+  }
+
+  .card, .card-panel {
+    margin: 10% 0 0;
+  }
+
+
+  /* label color */
+  .input-field label {
+    color: #909090 !important;
+  }
+  /* label focus color */
+  .input-field input:focus + label {
+    color: #01579b !important;
+  }
+
+  /* label underline focus color */
+  .input-field input:focus {
+    border-bottom: 1px solid #01579b !important;
+    box-shadow: 0 1px 0 0 #000;
+  }
+
+  /* changing colour for text-area */ 
+  .input-field textarea:focus{
+    border-bottom: 2px solid #01579b !important;
+    box-shadow: 0 1px 0 0 #000;
+  }
+
+  .input-field textarea:focus + label{
+    color: #01579b !important;
+  }
+
+  /* valid color */
+  .input-field input[type=text].valid,
+  .input-field input[type=tel].valid,
+  .input-field input[type=date].valid,
+  .input-field input[type=email].valid {
+    border-bottom: 1px solid #01579b !important;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid,
+  .input-field input[type=tel].invalid,
+  .input-field input[type=date].invalid,
+  .input-field input[type=email].invalid{
+    border-bottom: 1px solid orangered !important;
+    color: orangered !important;
+    box-shadow: 0 1px 0 0 #000;
+  }
+
