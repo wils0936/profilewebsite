@@ -8136,7 +8136,7 @@ header.hero div > img {
 }
 
 body {
-  background-color: #01579b;
+  background-color: #151513;
 }
 
 .page-footer li {
@@ -8157,23 +8157,23 @@ body {
 
 /* label focus color */
 .input-field input:focus + label {
-  color: #01579b !important;
+  color: #151513 !important;
 }
 
 /* label underline focus color */
 .input-field input:focus {
-  border-bottom: 1px solid #01579b !important;
-  box-shadow: 0 1px 0 0 #000;
+  border-bottom: 1px solid #151513 !important;
+  box-shadow: 0 1px 0 0 rgb(222, 222, 222);
 }
 
 /* changing colour for text-area */
 .input-field textarea:focus {
-  border-bottom: 2px solid #01579b !important;
-  box-shadow: 0 1px 0 0 #000;
+  border-bottom: 2px solid #151513 !important;
+  box-shadow: 0 1px 0 0 rgb(222, 222, 222);
 }
 
 .input-field textarea:focus + label {
-  color: #01579b !important;
+  color: #151513 !important;
 }
 
 /* valid color */
@@ -8181,8 +8181,8 @@ body {
 .input-field input[type=tel].valid,
 .input-field input[type=date].valid,
 .input-field input[type=email].valid {
-  border-bottom: 1px solid #01579b !important;
-  box-shadow: 0 1px 0 0 #000;
+  border-bottom: 1px solid #151513 !important;
+  box-shadow: 0 1px 0 0 rgb(222, 222, 222);
 }
 
 /* invalid color */
@@ -8192,7 +8192,7 @@ body {
 .input-field input[type=email].invalid {
   border-bottom: 1px solid orangered !important;
   color: orangered !important;
-  box-shadow: 0 1px 0 0 #000;
+  box-shadow: 0 1px 0 0 rgb(222, 222, 222);
 }
 
 /*# sourceMappingURL=main.css.map */
