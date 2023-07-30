@@ -4,6 +4,7 @@ nav {
       margin: 0;
     }
   }
+
   
   .hero {
     min-height: 40vh;
@@ -106,3 +107,6 @@ header.hero div>img{
     box-shadow: 0 1px 0 0 #000;
   }
 
+  .rounded{
+    border-radius: 15px; //or 20% or 1em or 1vw or 2vh, etc
+    }
