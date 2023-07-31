@@ -8207,6 +8207,10 @@ header.hero div > img {
   margin: 10% 0 0;
 }
 
+.card-image {
+  padding-top: 10px;
+}
+
 /* label color */
 .input-field label {
   color: #909090 !important;
