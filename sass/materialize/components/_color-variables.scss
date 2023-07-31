@@ -329,6 +329,22 @@ $shades: (
   "transparent":  transparent
 );
 
+$my-khaki: (
+    "base": $khaki
+);
+$my-red: (
+    "base": $bittersweet-shimmer
+);
+$my-blue: (
+    "base": $blue-munsell
+);
+$my-light-blue: (
+    "base": $moonstone
+);
+$my-grey: (
+    "base": $jet
+);
+
 $colors: (
   "materialize-red": $materialize-red,
   "red": $red,
@@ -350,7 +366,12 @@ $colors: (
   "brown": $brown,
   "blue-grey": $blue-grey,
   "grey": $grey,
-  "shades": $shades
+  "shades": $shades,
+  "my-blue": $my-blue,
+  "my-khaki": $my-khaki,
+  "my-light-blue": $my-light-blue,
+  "my-red": $my-red,
+  "my-grey": $my-grey
 ) !default;
 
 

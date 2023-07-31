@@ -5,33 +5,63 @@ nav {
     }
   }
 
-  
+  .logo-image{
+    width: 25%;
+  }
+
   .hero {
-    min-height: 40vh;
-    height: 80vh;
-    background: linear-gradient(to top, #0000, #0009), url('../images/jacob-small.jpg') center / cover no-repeat;
+    min-height: 60vh;
+    height: 60vh;
+    background: linear-gradient(to top, #000e, #0000, #0000,#0000, #000e), url('../images/jacob-small.jpg') center / cover no-repeat;
     @media only screen and (min-width: 38em) {
-      background-image: linear-gradient(to top, #0000, #0009), url('../images/Jacob.jpg');
+      background-image: linear-gradient(to top, #000e, #0000, #0000, #0000, #000e), url('../images/jacob.png');
     }
     @media only screen and (min-width: 60em) {
-      background-image: linear-gradient(to top, #0000, #0009), url('../images/jacob-large.jpg');
+      background-image: linear-gradient(#39393A, #0000, #0000, #0000, #0000, #0000, #0000), url('../images/jacob.png');
     } 
   }
-  
+  .hero2 {
+    min-height: 60vh;
+    height: 50vh;
+    background: linear-gradient(#39393A) center / cover no-repeat;
+    @media only screen and (min-width: 38em) {
+      background-image: linear-gradient(#39393A);
+    }
+    @media only screen and (min-width: 60em) {
+      background-image: linear-gradient(#39393A, #0000);
+    } 
+  }
+
 header.hero div>img{
-  min-height: 20vh;
-  max-height:40vh;
-  width: auto;
+  
   border-radius: 50%;
+  width: auto;
+
+  min-height: 10vh;
+  max-height: 30vh;
+
+  @media only screen and (min-width: 60em) {
+  min-height: 20vh;
+  max-height:50vh;
+  
+  }
+
+  @media only screen and (min-width: 38em) {
+    
+  }
+
+
+
 }
 
   .col img {
     max-width: 100%;
   }
-  
+
   .about{
     padding: 3rem 0;
     margin: .5rem 0;
+    
     img{
       @media only screen and (max-width: 38em){
       width: 80%;
@@ -39,6 +69,7 @@ header.hero div>img{
     }
     }
   }
+  
 .card{
   &.small, &.medium, &.large {
     .card-image + .card-content {
@@ -47,7 +78,9 @@ header.hero div>img{
   }
 }
   body{
-    background-color: #151513 !important;
+    // background-color: #151513;
+    // background: linear-gradient(to top,#151513,#474747);
+    
   }
   
   .page-footer {
@@ -108,5 +141,60 @@ header.hero div>img{
   }
 
   .rounded{
-    border-radius: 15px; //or 20% or 1em or 1vw or 2vh, etc
+    border-radius: 5px; //or 20% or 1em or 1vw or 2vh, etc
     }
+    .rounded2{
+      border-radius: 10px;
+  
+      padding: 20px;
+      }
+    .profile-picture{
+      opacity: .95;
+      max-height: 250px;
+      padding: 10px;
+    }
+.opacity{
+  opacity: .75;
+}
+
+.portfolio-l{
+  max-height: 250px;
+  max-width: 250px;
+}
+
+
+    .tech-custom{
+      padding: 1%;
+      margin: 1%;
+      height: 100%;
+    }
+
+    /* charlotte test */
+.top-pad{
+  padding-top: 50px;
+}
+ 
+.tech-pad {
+  margin-right: 2%;
+}
+.margin-test{
+  margin-top: -2%;
+}
+
+.margin-test2{
+  margin-top: -8%;
+}
+
+.margin-test3{
+margin-top: 10%;
+
+}
+
+
+
+
+.tiny-l{
+max-height:150px;
+max-width: 150px;
+
+}

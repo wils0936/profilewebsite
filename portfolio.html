@@ -7,51 +7,58 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body bgcolor = "#39393A">
   <header role="banner">
-    <nav class="brown darken-4">
-      <div class="nav-wrapper container">
-        <h1>
-          <a href="./index.html" class="brand-logo"><i class="material-icons left">speaker</i>Jacob Wilson</a>
-        </h1>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> 
+    <div class>
+    <nav class="my-grey">
+      <div class="nav-wrapper">
+  
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger "><i class="material-icons">menu</i></a> 
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="./index.html"><i class="material-icons left">home</i> Home</a></li>
-          <li><a href="./portfolio.html"><i class="material-icons left">account_box</i>Portfolio</a></li>
-          <li><a href="./contact.html"><i class="material-icons left">phone</i>Contact</a></li>
+          <li><a href="./index.html"><i class="material-icons left">home</i></a></li>
+          <li class="waves-effect waves-light active my-blue rounded"><a href="./portfolio.html"><i class="material-icons left">collections</i>Portfolio</a></li>
+          <li class><a href="./contact.html"><i class="material-icons left">phone</i>Contact</a></li>
+         <li><a href="mailto:jacob.wilson.dev@gmail.com" class="waves-effect waves-light btn"> Send email <i class="material-icons right">mail</i></a></li>
+
         </ul>
       </div>
     </nav>
-
+  </div>
     
-    <ul class="sidenav" id="mobile-demo" role="side-nav">
-        <li><a href="./index.html"><i class="material-icons left">home</i> Home</a></li>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="./index.html"><i class="material-icons left">home</i>Home</a></li>
         <li><a href="./portfolio.html"><i class="material-icons left">account_box</i>Portfolio</a></li>
         <li><a href="./contact.html"><i class="material-icons left">phone</i>Contact</a></li>
+
     </ul>
   </header>
-
   <main id="main" role="main">
 
-    <header class="hero brown darken-4 white-text valign-wrapper">
-      <div class="container row">
-        <div class="col s12 m4 center-align">
-            <img src="./images/gonqpic.jpg" alt='image of myself'>
-        </div>
-        <div class="col s12 m4 push-m3 center-align">
-          <h2>
-            Jacob Wilson
-          </h2>
-        </div>
+  
+<main role="main" id="main">
+  <div class = 'container'>
+  <div class="center-align margin-test2">
+    <div class="card my-khaki rounded2 col l2 m2 s2">
+      <div class="card-content white-text">
+        <span class="card-title center-align">
+          <img src = './images/jw.png' class="circle left portfolio-l">
+          <p>Jacob Wilson</p> 
+          <p class = 'center-align'>Portfolio</p>
+        </span>
       </div>
-    </header>
+    </div>
+  </div>
+
+
 <div class = 'row container'>
     <div class="col s12 m12 l12">
       <div class="card">
-        <div class="card-content">
+        <div class="card-conten rounded2">
           <span class="card-title">Balanced Brain</span>
-        <p>I worked with a team to create an application that is currently used by the therapists at Renew Neurotherapy using a diverse tech-stack including NextJS and Firebase/Firestore</p>
-      </div>
+        <p>I worked with a team to create an progressive web application that is currently used by therapists at Renew Neurotherapy. </p>
+          <p>Uses a diverse tech-stack including REACT front-end JavaScript libraries, NextJS as a framework, and Firebase/Firestore authentication.</p>
+      <p> Top 5 placement at the Virtual RE/ACTION Showcase</p>
+        </div>
       <div class="card-tabs">
         <ul class="tabs tabs-fixed-width">
           <li class="tab"><a class="active" href="#img1">Image 1</a></li>
@@ -62,7 +69,7 @@
           <li class="tab"><a href="#img6">Image 6</a></li>
         </ul>
       </div>
-      <div class="grey lighten-4">
+      <div class="grey">
         <div id="img1" class="card-image">
           <img src="./images/bb1.png" alt="picture example of the Balanced Brain Application" class="materialboxed">
         </div>
@@ -83,8 +90,8 @@
         </div>
       </div>
     </div>       
-      <div class="card-action black darken-4 center">
-        <a class="white-text waves-effect waves-light btn black darken-2" href="https://github.com/wils0936/DOM-assignment">Click Here for Youtube Presentation</a>
+      <div class="card-action my-blue center">
+        <a class="white-text waves-effect btn waves-light my-blue" href="https://www.algonquincollege.com/applied-research/2022/03/balanced-brain/"><i class="material-icons right">exit_to_app</i>Click Here for Algonquin College Virtual RE/ACTION Showcase</a>
       </div>
     </div>
   </div>
@@ -99,8 +106,8 @@
             <span class="card-title">Document Object Model Manipulation</span>
           <p>I dynamically created this webpage with Javascript and DOM manipulation.</p>
         </div>
-        <div class="card-action brown darken-4 center">
-          <a class="white-text waves-effect waves-light btn brown darken-2" href="https://github.com/wils0936/DOM-assignment">Click Here for Github link</a>
+        <div class="card-action my-blue center">
+          <a class="white-text waves-effect waves-light btn my-blue" href="https://github.com/wils0936/DOM-assignment"><i class="material-icons right">exit_to_app</i>Github link</a>
         </div>
       </div>
     </div>
@@ -114,8 +121,8 @@
             <span class="card-title">Web Form</span>
           <p>I created a web form from scratch using mobile-first design principles.</p>
         </div>
-        <div class="card-action brown darken-4 center">
-          <a class="white-text waves-effect waves-light btn brown darken-2" href="https://github.com/wils0936/web-form">Click Here for Github link</a>
+        <div class="card-action my-blue center">
+          <a class="white-text waves-effect waves-light btn my-blue" href="https://github.com/wils0936/web-form"><i class="material-icons right">exit_to_app</i>Github link</a>
         </div>
       </div>
     </div>
@@ -127,17 +134,57 @@
           </div>
           <div class="card-content">
             <span class="card-title">Simple SPA</span>
-          <p>I created a dynamically updating webpage using Javascript using a Fetch API and having the users' input impact the dynamic updating of the single page application.</p>
+          <p>I created a dynamically updating webpage using Javascript and a Fetch API with users' input impact the dynamic updating of the single page application.</p>
         </div>
-        <div class="card-action brown darken-4 center">
-          <a class="white-text waves-effect waves-light btn brown darken-2" href="https://github.com/wils0936/simple-spa">Click Here for Github link</a>
+        <div class="card-action my-blue center">
+          <a class="white-text waves-effect waves-light btn my-blue" href="https://github.com/wils0936/simple-spa"><i class="material-icons right">exit_to_app</i>Github link</a>
         </div>
       </div>
     </div>
 
+    <div class="row container">
+      <div class="col s12 m12 l12">
+        <div class="card large">
+          <div class="card-image">
+            <img src="./images/personal.png" alt="picture example of Simple Single Page Application" class="materialboxed">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Personal Webpage</span>
+          <p>This personal webpage is an example of a simple HTML5 webpage using CSS, SASS, and Materialize.</p>
+        </div>
+        <div class="card-action my-blue center">
+          <a class="white-text waves-effect waves-light btn my-blue" href="https://github.com/wils0936/profilewebsite"><i class="material-icons right">exit_to_app</i>Github link</a>
+        </div>
+      </div>
+    </div>
 
   </div>
   </main>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <img src="./images/jw2.png" class = 'circle tiny-l z-depth-2'>
+          <p class="grey-text text-lighten-4"></p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="./index.html">Home</a></li>
+            <li><a class="grey-text text-lighten-3" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="grey-text text-lighten-3" href="./contact.html">Contact</a></li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2023 Copyright Jacob Wilson
+      </div>
+    </div>
+  </footer>
   <script src="./js/materialize.min.js"></script>
   <script>M.AutoInit();</script>
 </body>
