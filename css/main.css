@@ -8177,6 +8177,10 @@ header.hero div > img {
     max-height: 50vh;
   }
 }
+.my-khaki-fade {
+  background: linear-gradient(to bottom, #c1b098, #c1b098, #c1b098, #c1b098, rgba(193, 176, 152, 0), rgba(193, 176, 152, 0), rgba(193, 176, 152, 0), rgba(193, 176, 152, 0));
+}
+
 .col img {
   max-width: 100%;
 }
